@@ -1,5 +1,4 @@
 # PS2RPC
-A discord rich presence implementation for PS2 connected with SMB server
 If you are using OPL on your Playstation2, connected with SMB to your computer, you can now display what you are playing on discord with this implementation of rich presence.
 
 ## Disclaimer
