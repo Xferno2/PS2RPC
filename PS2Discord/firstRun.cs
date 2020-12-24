@@ -21,7 +21,7 @@ namespace PS2Discord
         {
             Properties.Settings.Default.ps2IP = ipMaskedTextBox1.FirstBox.Text + "." + ipMaskedTextBox1.SecondBox.Text + "." + ipMaskedTextBox1.ThirdBox.Text + "." + ipMaskedTextBox1.FourthBox.Text;
             Properties.Settings.Default.Save();
-            this.Close();
+            this.DialogResult = DialogResult.OK;
         }
 
         private void firstRun_Load(object sender, EventArgs e)
@@ -31,7 +31,6 @@ namespace PS2Discord
 
         private void closing(object sender, FormClosingEventArgs e)
         {
-            this.DialogResult = DialogResult.Cancel;
         }
     }
 }
