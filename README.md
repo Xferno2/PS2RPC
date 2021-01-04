@@ -1,5 +1,6 @@
 # PS2RPC
 If you are using OPL on your Playstation2, connected with SMB to your computer, you can now display what you are playing on discord with this implementation of rich presence.
+It also supports PS1 games with POPSTARTER.
 
 ### Please
 Use [OPL Manager](https://oplmanager.com/site/) to correctly format the name of the games, so that the program can display games name correctly on Discord.
